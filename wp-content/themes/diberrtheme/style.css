@@ -1,0 +1,663 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  visibility: hidden;
+  margin: 0 10px 0px 20px;
+  border: 1px solid rgb(1, 88, 100) !important;
+}
+li a {
+  font: normal normal medium 15px/16px 'Montserrat';
+  letter-spacing: 1.5px;
+  color: #ababab;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+a:hover + hr {
+  visibility: visible;
+}
+
+.video-text {
+  position: absolute;
+  z-index: 10;
+  top: 40%;
+  left: 5%;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 0px !important;
+}
+
+h1 + p {
+  color: white;
+  font-size: 10px;
+  margin-bottom: 0px;
+}
+
+.watch {
+  padding: 5px 5px;
+  border-radius: 20px;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 5px;
+  background-color: rgb(26, 78, 122);
+}
+.watch > i {
+  font-size: 5px;
+  line-height: 0px;
+  padding: 3px 2px;
+}
+
+.scroll {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  width: fit-content;
+  transition: bottom 0.2s;
+}
+.scroll:hover {
+  bottom: 8%;
+}
+
+.scroll > button {
+  outline: none;
+  border: 0;
+  background-color: transparent;
+}
+.scroll-btn i {
+  font-size: 25px;
+  color: white;
+}
+
+.about {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+
+.about > div {
+  width: 45%;
+}
+
+.about > div span {
+  font: normal normal bold 10px/15px Montserrat;
+  letter-spacing: 2px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+  text-transform: uppercase;
+}
+
+.about > div p {
+  margin-bottom: 0px;
+  font: normal normal normal 8px/10px Montserrat;
+  color: #000000;
+  opacity: 1;
+}
+
+.about > div a {
+  font: normal normal bold 10px/15px Montserrat;
+  color: #38a2a5;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.business-units {
+  position: absolute;
+  top: 14%;
+}
+.title {
+  position: absolute;
+  top: 2%;
+  left: 5%;
+}
+
+.title span {
+  font: normal normal bold 10px/12px 'Montserrat';
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.content {
+  background-color: #215778;
+  width: 35%;
+  height: 5%;
+  color: white;
+}
+
+.content p {
+  padding: 5px 5px 0 5px;
+  font: normal normal normal 8px/10px Montserrat;
+
+  color: #ffffff;
+  opacity: 1;
+}
+
+.content a {
+  text-decoration: underline;
+  text-transform: uppercase;
+  opacity: 1;
+  color: #38a2a5;
+  font-size: 5px;
+  font-weight: bold;
+}
+
+.products-portfolio-carousel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
+  width: 100%;
+}
+
+.products-portfolio_header {
+  position: absolute;
+  top: 12%;
+  left: 5%;
+  width: 75%;
+}
+.products-portfolio_header h6 {
+  font: normal normal bold 15px/20px Montserrat;
+  letter-spacing: 1.5px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.products-portfolio_header p {
+  font: normal normal 800 10px/15px Montserrat;
+  letter-spacing: 0px;
+  opacity: 1;
+  color: #215778;
+}
+
+.products-portfolio_header span {
+  font: normal normal bold 8px/10px Montserrat;
+  color: #215778;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.carousel-content > span {
+  font: normal normal 800 10px/12px Montserrat;
+  letter-spacing: 0px;
+  color: #215778;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.carousel-content button {
+  font: normal normal bold 5px/25px Montserrat;
+  color: #38a2a5;
+  text-transform: uppercase;
+  opacity: 1;
+  margin: 2rem auto;
+
+  border: 1px solid #38a2a5;
+}
+
+.carousel-btn {
+  width: fit-content !important;
+}
+
+.carousel-control-prev-icon {
+  height: 100px;
+  width: 100px;
+  text-align: start;
+  color: #215778;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  text-align: end;
+  color: #215778;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after {
+  content: '>';
+  font-size: 30px;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 30px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: -5%;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+}
+
+.executives {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
+  color: #ffffff;
+}
+.executives_header span {
+  font: normal normal bold 8px/5px Montserrat;
+  letter-spacing: 1.5px;
+
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.executives_content p {
+  font: normal normal normal 8px/10px Montserrat;
+  opacity: 1;
+}
+
+.executives_content h3 {
+  font: normal normal bold 12px/0px Montserrat;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.executives_content span {
+  font: normal normal 10px/0px Montserrat;
+  color: #38a2a5;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.excutives-bg {
+  width: 100%;
+  height: 30vh;
+}
+
+.executives .carousel-indicators {
+  width: 10%;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  left: 20%;
+  z-index: 2;
+  display: flex;
+  justify-content: start !important;
+  padding: 0;
+  list-style: none;
+}
+
+.join-team span {
+  font: normal normal bold 10px/0 Montserrat;
+  letter-spacing: 3px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.join-team p {
+  font: normal normal bold 10px/12px Montserrat;
+  letter-spacing: 0px;
+  opacity: 1;
+  color: #215778;
+}
+
+.join-team a {
+  font: normal normal bold 5px/10px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.newsletter {
+  background: transparent linear-gradient(270deg, #38a2a5 0%, #000000 100%) 0% 0% no-repeat
+    padding-box;
+  mix-blend-mode: multiply;
+  opacity: 1;
+}
+.newsletter input {
+  background: linear-gradient(90deg, hsla(177, 90%, 12%, 1) 0%, hsla(176, 26%, 48%, 1) 100%);
+  width:320px;
+  padding:1% 4% 1% 4% !important;
+  color: white;
+  outline: none !important;
+}
+.newsletter span {
+  font: normal normal normal 10px/15px Montserrat;
+  color: #38a2a5;
+  opacity: 1;
+}
+.newsletter button {
+  color: #38a2a5;
+  font-size: 8px;
+  font-weight: 500;
+}
+::placeholder {
+  font-size: 10px;
+  font-style: italic;
+  color: #38a2a5;
+}
+.quicklinks a {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.social-links span {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+footer .row + .col span {
+  font-weight: 900;
+}
+
+pre {
+  font: normal normal medium 15px/18px Montserrat;
+  letter-spacing: 0.75px;
+  color: #000000;
+  opacity: 1;
+}
+
+/* FOR DESKTOP */
+
+@media only screen and (min-width: 768px) {
+  .video-text {
+    position: absolute;
+    top: 35%;
+    left: 7%;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h1 + p {
+    font-size: x-large;
+  }
+  .watch {
+    padding: 10px;
+    font-size: 10px;
+  }
+  .watch > i {
+    font-size: 14px;
+    line-height: 0px;
+    padding: 0 5px;
+  }
+
+  .scroll {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transition: bottom 0.2s;
+  }
+  .scroll:hover {
+    bottom: 8%;
+  }
+
+  .scroll > button {
+    outline: none;
+    border: 0;
+    background-color: transparent;
+
+    /* justify-content: center; */
+  }
+  .scroll-btn i {
+    font-size: 25px;
+  }
+
+  .about {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+  }
+
+  .about > div {
+    width: 50%;
+  }
+
+  .about > div span {
+    font: normal normal bold 25px/40px Montserrat;
+	margin-left:3%;
+    letter-spacing: 4px;
+  }
+
+  .about > div p {
+    font: normal normal normal 20px/35px Montserrat;
+    opacity: 1;
+  }
+
+  .about > div a {
+    font: normal normal bold 20px/60px Montserrat;
+  }
+
+  .business-units {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    right: 10%;
+  }
+  .title {
+    position: absolute;
+    top: 10%;
+    left: 12%;
+  }
+
+  .title span {
+    font: normal normal bold 30px/60px 'Montserrat';
+    letter-spacing: 3px;
+  }
+
+  .content {
+    width: 35%;
+  }
+
+  .content p {
+    padding: 15px 15px 0 15px;
+    font: normal normal normal 20px/30px Montserrat;
+  }
+
+  .content a {
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .business-units {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    right: 10%;
+  }
+  .title {
+    position: absolute;
+    top: 10%;
+    left: 12%;
+  }
+
+  .title span {
+    font: normal normal bold 25px/40px 'Montserrat';
+    letter-spacing: 3px;
+  }
+
+  .content {
+    width: 35%;
+  }
+
+  .content p {
+    padding: 15px;
+    font: normal normal normal 20px/30px Montserrat;
+	font-weight: 200;
+	padding:7% 7% 7% 7%;
+  }
+
+  .content a {
+    font-weight: bold;
+  }
+
+  .products-portfolio-carousel {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+    width: 85%;
+  }
+
+  .products-portfolio_header {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 50%;
+  }
+  .products-portfolio_header h6 {
+    font: normal normal bold 25px/60px Montserrat;
+    letter-spacing: 3px;
+  }
+  .products-portfolio_header p {
+    font: normal normal 800 35px/40px Montserrat;
+	width: 94%;
+  }
+
+  .products-portfolio_header span {
+    font: normal normal bold 15px/40px Montserrat;
+  }
+
+  .carousel-content > span {
+    font: normal normal 800 20px/24px Montserrat;
+  }
+
+  .carousel-content button {
+    font: normal normal bold 10px/25px Montserrat;
+    margin: 2rem auto;
+    border: 1px solid #38a2a5;
+  }
+
+  .carousel-control-prev-icon {
+    height: 100px;
+    width: 100px;
+    text-align: start;
+    color: #215778;
+    background-size: 100%, 100%;
+    background-image: none;
+  }
+  .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    text-align: end;
+    color: #215778;
+    background-size: 100%, 100%;
+    background-image: none;
+  }
+
+  .carousel-control-next-icon:after {
+    /* content: '>';
+    font-size: 40px; */
+	font-family: "Font Awesome 4"; 
+	font-weight: 300;
+	content: "\f054";
+  }
+
+  .carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 40px;
+  }
+  .excutives-bg {
+    width: 100%;
+    height: auto;
+  }
+
+  .executives {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+  }
+  .executives_header span {
+    font: normal normal bold 17px/60px Montserrat;
+    letter-spacing: 2px;
+  }
+
+  .executives_content p {
+    font: normal normal normal 18px/35px Montserrat;
+  }
+
+  .executives_content h3 {
+    font: normal normal bold 30px/39px Montserrat;
+  }
+
+  .executives_content span {
+    font: normal normal normal 20px/21px Montserrat;
+    letter-spacing: 2px;
+  }
+
+  .join-team span {
+    font: normal normal bold 20px/60px Montserrat;
+    letter-spacing: 3px;
+  }
+
+  .join-team p {
+    font: normal normal bold 25px/35px Montserrat;
+  }
+
+  .join-team a {
+    font: normal normal bold 17px/35px Montserrat;
+	padding-bottom:1%;
+  }
+
+  .newsletter span {
+    font: normal normal normal 15px/50px Montserrat;
+  }
+  .newsletter button {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  ::placeholder {
+    font-size: 15px;
+    font-style: italic;
+  }
+  .quicklinks a {
+    font-size: 12px;
+  }
+
+  .social-links span {
+    font-size: 12px;
+  }
+
+  footer .row + .col span {
+    font-weight: 900;
+  }
+
+  pre {
+    font: normal normal medium 15px/18px Montserrat;
+    letter-spacing: 0.75px;
+  }
+
+  /* Additional Styles */
+  .logo{
+	max-width:100px !important;
+  }
+  .txt-sm{
+	font-size: 12px;
+  }
+
+  .about-section{
+	margin-top:-2% !important;
+  }
+}
